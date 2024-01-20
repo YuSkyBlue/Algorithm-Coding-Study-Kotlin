@@ -2,7 +2,7 @@ package leetcode.string
 
 /**
  * Reference :  https://leetcode.com/problems/reverse-string/
- * LetCode : Valid Palindrome (344)
+ * LetCode : Reversed String(344)
  */
 private fun reverseString(s: CharArray) : Unit{
     println(s.reversed())
