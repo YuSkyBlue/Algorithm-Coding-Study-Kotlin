@@ -30,8 +30,7 @@ private fun twoSum1(nums: IntArray, target: Int): IntArray {
     for((index, value) in nums.withIndex()){
         val complement = target - value
         if(map.containsKey(complement)){
-            println(map[complement])
-            println(index)
+
             return intArrayOf(map[complement]!!, index)
         }
         map[value] = index
