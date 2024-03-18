@@ -3,7 +3,7 @@ private fun main() {
     permute(list)
 }
 
-fun <T> permute(list: List<T>, start: Int = 0) {
+fun <T> permute(list: List<T>, start: Int = 0)  {
     if (start == list.size - 1) {
         println(list)
     } else {
@@ -16,3 +16,4 @@ fun <T> permute(list: List<T>, start: Int = 0) {
         }
     }
 }
+
