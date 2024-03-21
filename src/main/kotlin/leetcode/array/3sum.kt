@@ -1,6 +1,4 @@
 package leetcode.array
-
-
 private fun main(){
     val nums = intArrayOf(-1,0,1,2,-1,-4)
     println( threeSum2(nums))
